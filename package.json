@@ -1,0 +1,21 @@
+{
+  "name": "router",
+  "version": "1.0.0",
+  "description": "Get stats from my router",
+  "main": "stats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netgear",
+    "router",
+    "stats"
+  ],
+  "author": "Ryan Boucher",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "lodash": "^4.6.1",
+    "request": "^2.69.0"
+  }
+}
