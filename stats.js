@@ -19,9 +19,6 @@ function postRes (err, res) {
   if (err) {
     console.error(err);
   }
-
-  console.log(res.body);
-  console.log(res.statusCode);
 }
 
 function getStats () {
